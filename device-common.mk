@@ -36,6 +36,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     SamsungDoze
 
+# Exclude AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # FlipFlap
 PRODUCT_PACKAGES += \
     FlipFlap
